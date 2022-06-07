@@ -59,30 +59,38 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.img {
-    background: black url('../imagens/background001.jpg') center center no-repeat fixed;
+    background: black url('../imagens/background001.jpg') right center no-repeat fixed;
     background-size: cover;
     color: white;
+    background-color: darkgrey;
 }
 
 section.img > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.521);
+    box-shadow: 1px 2px 3px rgb(0 0 0 / 70%);
+    
 
 }
 
 section.img2 {
-    background: black url('../imagens/background002.jpg') center center no-repeat fixed;
+    background: black url('../imagens/background002.jpg') left center no-repeat fixed;
     background-size: cover;
     color: white;
+    box-shadow: inset -2px 3px 3px rgba(0, 0, 0, 0.432);
 }
 
 section.img2 > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.26);
-    
+    background-color: rgba(0, 0, 0, 0.521);
+    text-shadow: 1px 1px 0px black ;
 }
 
 
