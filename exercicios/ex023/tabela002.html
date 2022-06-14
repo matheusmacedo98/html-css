@@ -23,6 +23,22 @@
        .num {
         text-align: right;
        }
+
+       caption {
+         font-size: 1.5em;
+         font-weight: bold;
+         padding: 10px;
+         background-color: lightgrey;
+       }
+
+       tbody > tr:nth-child(odd) {
+         background-color: white;
+         font-weight: bold;
+       }
+
+       tbody > tr:nth-child(even) {
+         background-color: lightgray;
+       }
     </style>
 </head>
 <body>
@@ -43,8 +59,8 @@
       <caption>População das unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width:50px;">População</th>
             <tr>
         </thead>
         <tbody>
@@ -157,7 +173,7 @@
         </tbody>
         <tfoot>
               <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num">213.317.639</td>
               </tr>
         </tfoot>
