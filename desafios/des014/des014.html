@@ -16,28 +16,22 @@
             border: 1px solid black;
             padding: 10px;
         } 
-        thead {
+        thead > tr:nth-child(1n) {
             background-color: gray;
             color: white;
         }
         
-        th.me {
-            background-color: gray;
-            color: white;
-        }
-        td.me1 {
-            background-color: gray;
-            color: white;
-        }
-        th.me2 {
+        tbody > tr:nth-child(5n) {
             background-color: gray;
             color: white;
         }
 
-        td.me3 {
+        tbody > tr:nth-child(9n) {
             background-color: gray;
             color: white;
         }
+        
+        
     </style>
 </head>
 <body>
@@ -50,7 +44,7 @@
                 <th colspan="2" scope="colgroup">Nota</th>
                 <th rowspan="2" scope="col">Média</th>
             </tr>
-            <tr>
+            <tr class="n">
                 <th scope="col">Nota 1</th>
                 <th scope="col">Nota 2</th>
             </tr>
@@ -81,7 +75,7 @@
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
-            <th colspan="4" class="me" scope="row" >Média das exatas</th>
+            <th colspan="4"  scope="row" >Média das exatas</th>
             <td class="me1">0.0</td>
             <tr>
                 <th rowspan="3" scope="rowgroup">Humanas</th>
@@ -98,8 +92,8 @@
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
-            <th colspan="4" class="me2" scope="row">Média de humanas</th>
-            <td class="me3">0.0</td>
+            <th colspan="4"  scope="row">Média de humanas</th>
+            <td>0.0</td>
         </tbody>
     </table>
 </body>
