@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-weight: bolder;
+            font-size: 1.4em;
+            padding: 9px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 9px;
+        }
+       
+        col.csexo {
+            background-color: yellow;
+        }
+        col.cidade {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabelas</h1>
+    <table>
+        <colgroup>
+           <col class="cnome">
+           <col class="csexo">
+           <col class="cidade">
+           <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalismo</td>
+        </tr>
+        <tr>
+            <td>Marcio</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Guanabara</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Lais</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Advogada</td> 
+        </tr>
+        <tr>
+            <td>Leonardo</td>
+            <td>M</td>
+            <td>24</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Jaqueline</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Biologa</td>
+        </tr>
+    </table>
+</body>
+</html>
