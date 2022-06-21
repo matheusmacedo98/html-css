@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium suscipit eveniet vel, quod nemo libero provident at, nihil fugit dicta sapiente. Atque eligendi quaerat repellat hic dignissimos aliquid, nam voluptatibus!</p>
+    <ol>
+        <li><a href="paginas-extras/pag001.html" target="frame">1 página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">2 página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">3 página</a></li>
+    </ol>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur provident tempore natus ipsam libero. Cum quis tempora explicabo quam ullam doloremque officiis dolorum dolorem ad quas? Nulla praesentium placeat cupiditate. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum expedita deserunt repellat et, mollitia itaque, aspernatur, odit quod alias rerum eos a! Nesciunt, saepe? Fuga quam possimus blanditiis veniam cupiditate.</p>
+    <iframe id="tela" name="frame" srcdoc="<h1> Escolha uma das opções acima </h1> <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur optio ipsam sapiente neque doloribus possimus suscipit debitis eius fugit ea, incidunt minima obcaecati perspiciatis sit aliquid  </p><img src='imagens/cev.png'>">
+        <p>Infelizmente seu navegador não é compativel</p>
+    </iframe>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur optio ipsam sapiente neque doloribus possimus suscipit debitis eius fugit ea, incidunt minima obcaecati perspiciatis sit aliquid assumenda inventore asperiores! Ipsam.</p>
+</body>
+</html>
