@@ -111,6 +111,10 @@ width: 90%;
 height: 90%;
 }
 
+main h1 {
+    text-align: left;
+}
+
 main img {
     width: 100%;
 }

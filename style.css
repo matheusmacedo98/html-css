@@ -59,23 +59,38 @@ main {
     
 }
 
-img {
-   display: inline-block;
-   text-align: right;
-   vertical-align: top;
-}
-
-p {
-   float: right;
-}
-
 main h1 {
     text-align: left;
 }
 
+.container {
+    display: flex;
+}
+
+img {
+    border-radius: 2px 2px;
+    box-shadow: -2px 2px 3px rgb(0 0 0 / 60%);
+    width: 50%;
+    height: 50%;
+
+}
+
+img.cont {
+    width: 480px;
+    height: 200px;
+}
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+}
+
+footer a {
     text-decoration: none;
+    color: black;
+    
+}
+
+footer a:hover {
+    color: black;
 }
