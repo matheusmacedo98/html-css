@@ -50,7 +50,7 @@ nav > a {
 
 }
 
-a:hover {
+nav>a:hover {
    box-shadow: -7px 6px 3px rgba(0, 0, 0, 0.322); 
 }
 
@@ -70,7 +70,22 @@ main p {
     font-family: 'Cinzel Decorative', cursive;
 }
 
+.nos {
+    text-align: center;
+}
+
+img {
+    border-radius: 3px;
+    margin: auto;
+}
 footer {
     position: relative;
     top: 100px;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
 }
