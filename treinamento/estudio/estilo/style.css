@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Martel+Sans:wght@200&family=The+Nautigal&display=swap');
+
+/*
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Martel Sans', sans-serif;
+font-family: 'The Nautigal', cursive;
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    width: 100vw;
+    box-shadow: inset -1px -2px 3px rgb(0 0 0 / 60%);
+    height: 120px; 
+}
+
+header h1 {
+    position: relative;
+    top: 10px;
+    padding: 5px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h2 {
+    font-size: 0.7em;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+header nav {
+    text-align: left;
+    position: relative;
+    top: 25px;
+}
+
+nav > a {
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+   box-shadow: -7px 6px 3px rgba(0, 0, 0, 0.322); 
+}
+
+main {
+
+}
+
+main h1 {
+    position: relative;
+    right: 10px;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+main p {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+footer {
+    position: relative;
+    top: 100px;
+}
