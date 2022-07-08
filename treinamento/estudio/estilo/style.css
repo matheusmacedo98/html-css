@@ -122,26 +122,19 @@ article img {
 article img:hover {
     -webkit-filter: grayscale(50%);
 }
+
 footer {
     background-color: #999999be;
     text-align: center;
-    padding: 50px;
-
+    padding: 1px;
 }
 
-footer p {
-    position: relative;
-    top: 78px;
-    text-align: center;
-
-}
 
 footer img {
     position: relative;
-    margin: 20px;
     width: 30px;
     height: 30px;
-    bottom: 65px;
+    margin: 30px;
 }
 
 footer img:hover {
@@ -149,8 +142,4 @@ footer img:hover {
     border-radius: 50%;
 }
 
-footer a {
-    color: black;
-    text-decoration: none;
-}
 
