@@ -20,7 +20,7 @@ body {
 header {
     text-align: center;
     width: 100vw;
-    box-shadow: inset -1px -2px 3px rgb(0 0 0 / 60%);
+    box-shadow: inset -5px 0px 0px 1px rgb(0 0 0 / 60%);
     height: 120px; 
 }
 
@@ -31,9 +31,12 @@ header h1 {
     font-family: 'Cinzel Decorative', cursive;
 }
 
+
+
 h2 {
     font-size: 0.7em;
     font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
 }
 
 header nav {
@@ -44,48 +47,110 @@ header nav {
 
 nav > a {
     font-size: 20px;
-    margin: 10px;
+    margin: 50px;
     text-decoration: none;
     color: black;
+
 
 }
 
 nav>a:hover {
-   box-shadow: -7px 6px 3px rgba(0, 0, 0, 0.322); 
+    border: 2px solid #999999(0, 0, 0, 0.89);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.534);
+    transition: transform 2s; 
+    border-radius: 10px 2px;
 }
 
-main {
 
+main {
+  color:#999999;
+  text-align: center;
 }
 
 main h1 {
     position: relative;
     right: 10px;
     padding: 10px;
-    text-align: left;
+    text-align: center;
     font-family: 'Cinzel Decorative', cursive;
 }
 
 main p {
     font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    
 }
 
 .nos {
     text-align: center;
 }
 
-img {
-    border-radius: 3px;
-    margin: auto;
+section {
+    position: relative;
+    width: 100vw;
+    box-shadow: inset 1px 0px 16px 2px rgb(0 0 0 / 53%);
+}
+
+section#tatto img {
+    width: 190px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+    box-sizing: border-box;
+}
+
+section#tatto img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.534);
+    transition: transform 1s;
+    -webkit-filter: grayscale(50%);
+}
+
+section#tatto 
+{
+    text-align: center;
+}
+article img {
+  border-radius: 10px 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+
+}
+
+article img:hover {
+    -webkit-filter: grayscale(50%);
 }
 footer {
-    position: relative;
-    top: 100px;
+    background-color: #999999be;
     text-align: center;
-    font-size: 15px;
+    padding: 50px;
+
+}
+
+footer p {
+    position: relative;
+    top: 78px;
+    text-align: center;
+
+}
+
+footer img {
+    position: relative;
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+    bottom: 65px;
+}
+
+footer img:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.849);
+    border-radius: 50%;
 }
 
 footer a {
     color: black;
     text-decoration: none;
 }
+
